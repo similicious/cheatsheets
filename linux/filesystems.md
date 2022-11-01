@@ -1,5 +1,5 @@
 ## Mount a samba share at boot
-Edit `/etc/fstab` with root previliges and add the following line. Apply changes with a reboot or `sudo mount -a`.
+Edit `/etc/fstab` with root privileges and add the following line. Apply changes with a reboot or `sudo mount -a`.
 ```
 //192.168.178.1/FRITZ.NAS/Media/Media /media/similicious/Media cifs _netdev,rw,user=<<user>>,password=<<password>>,noserverino,uid=1000,gid=1000 0 0
 ```
